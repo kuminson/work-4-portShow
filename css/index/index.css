@@ -166,8 +166,8 @@
 }
 .cb_list{
 	float: left;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	text-align: center;
@@ -181,7 +181,7 @@
 }
 .cbl_table{
 	display: table;
-	height: 130px;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 130px;
@@ -198,7 +198,7 @@
 .cblb_img{
 	display: inline-block;
 	max-width: 120px;
-	max-height: 120px;
+	max-height: 90px;
 	width: 9999%;
 }
 .cbl_title{
