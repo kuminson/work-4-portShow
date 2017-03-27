@@ -35,7 +35,6 @@ function addNavClickEvent(){
 			$(".cb_list").show("normal");
 			return false;
 		}
-		$(".cb_list").not("."+type).hide("normal");
 		$(".cb_list."+type).show("normal");
 	});
 }
