@@ -1,0 +1,63 @@
+.m_data{
+	margin-top: 5px;
+}
+.m_flowbox{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+.m_flow{
+	display: inline-block;
+	margin-top: -55px;
+	margin-bottom: 0;
+	padding-left: 0;
+	overflow: hidden;
+}
+.mf_list{
+	display: inline-block;
+	position: relative;
+	float: left;
+	margin-left: 24px;
+	vertical-align: middle;
+	list-style: none;
+	height: 110px;
+}
+.mf_list.first{
+	margin-left: 0;
+}
+.mf_arrow{
+}
+.mfl_ar{
+	font-size: 50px;
+	color: #24609f;
+	line-height: 110px;
+}
+.mfl_back{
+	display: inline-block;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	line-height: 80px;
+	color: #065fb9;
+	font-size: 80px;
+}
+.mfl_ab{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #FFF;
+	font-size: 44px;
+}
+.mfl_title{
+	margin-top: 6px;
+	margin-bottom: 0;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+

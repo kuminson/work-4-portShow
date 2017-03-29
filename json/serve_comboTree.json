@@ -1,0 +1,36 @@
+[{
+    "id":1,
+    "text":"财务部",
+    "iconCls":"icon-tree-dept",
+    "children":[
+    {
+        "iconCls":"icon-tree-user",
+        "text":"丁磊"
+    },{
+        "iconCls":"icon-tree-user",
+        "text":"丁超"
+    },{
+        "iconCls":"icon-tree-user",
+        "text":"马德田"
+    }]
+},{
+    "text":"人事部",
+    "iconCls":"icon-tree-dept",
+    "children":[{
+        "iconCls":"icon-tree-user",
+        "text":"雷思淼"
+    },{
+        "iconCls":"icon-tree-user",
+        "text":"白郑"
+    }]
+},{
+    "text":"经理",
+    "iconCls":"icon-tree-dept",
+    "children":[{
+        "iconCls":"icon-tree-user",
+        "text":"王德天"
+    },{
+        "iconCls":"icon-tree-user",
+        "text":"胡高"
+    }]
+}]
