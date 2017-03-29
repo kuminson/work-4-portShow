@@ -11,40 +11,48 @@ $(function(){
 
 var datacolumn = [[
 	{
-		"field":"cgpzh",
+		"field":"",
+		"checkbox":true
+	},{
+		"field":"ywbz",
+		"title":"原文",
+		"align":"left",
+		"width":30
+	},{
+		"field":"wjxh",
+		"title":"序号",
+		"align":"left",
+		"width":30
+	},{
+		"field":"wjbh",
 		"title":"采购凭证号",
 		"align":"left",
 		"width":100
 	},{
-		"field":"tm",
+		"field":"wjtm",
 		"title":"题名",
 		"align":"left",
 		"width":350
 	},{
-		"field":"cjry",
-		"title":"创建人员",
-		"align":"left",
-		"width":100
-	},{
-		"field":"cjrq",
-		"title":"创建日期",
-		"align":"left",
-		"width":100
-	},{
-		"field":"gyszhh",
-		"title":"供应商账户号",
-		"align":"left",
-		"width":200
-	},{
-		"field":"jswcrq",
+		"field":"wjsj",
 		"title":"技术完成日期",
 		"align":"left",
 		"width":100
 	},{
-		"field":"cgz",
-		"title":"采购组",
+		"field":"zrz",
+		"title":"责任人",
 		"align":"left",
 		"width":100
+	},{
+		"field":"bgqx",
+		"title":"保管期限",
+		"align":"left",
+		"width":100
+	},{
+		"field":"bzh",
+		"title":"备注",
+		"align":"left",
+		"width":200
 	}
 ]];
 
@@ -53,7 +61,7 @@ var datacolumn = [[
 function initTree(){
 	$("#m_tree").tree({
 		method: "get",
-		url:rootUrl + "json/serve_tree.json"
+		url:rootUrl + "json/serve_tree_new.json"
 	});
 }
 
@@ -61,7 +69,7 @@ function initTree(){
 function initDatagrid(){
 	$("#m_grid").datagrid({
 		method: "get",
-		url: rootUrl + "json/serve_grid.json",
+		url: rootUrl + "json/serve_grid_new.json",
 		toolbar:"#m_tb",
 		fitColumns: true,
 		columns:datacolumn,
