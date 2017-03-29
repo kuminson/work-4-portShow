@@ -126,7 +126,7 @@ function initDateBox(){
 	cfg.labelWidth = 100;
 	cfg.width = 250;
 	$("#m_datastar").datebox(cfg);
-	$("#m_datastar").datebox("setValue","today");
+	$("#m_datastar").datebox("setValue","2016-01-01");
 	cfg.label = "至：";
 	cfg.labelWidth = 60;
 	cfg.width = 210;
