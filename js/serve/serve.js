@@ -52,6 +52,7 @@ var datacolumn = [[
 // 树初始化
 function initTree(){
 	$("#m_tree").tree({
+		method: "get",
 		url:rootUrl + "json/serve_tree.json"
 	});
 }
@@ -78,6 +79,7 @@ function initDatagrid(){
 // 初始化下拉树
 function initComboTree(){
 	$("#m_responsible").combotree({
+		method: "get",
 		url: rootUrl + "json/serve_comboTree.json",
 		label:"责任人：",
 		labelWidth:100,
