@@ -1,50 +1,4 @@
-/*菜单栏*/
-.headermenu{
-	width: 100%;
-	min-width: 1000px;
-	background: #24609F;
-	box-shadow: 0 5px 5px 0 #000;
-	position: relative;
-	z-index: 15;
-}
-.h_menu{
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	height: 80px;
-	overflow: hidden;
-}
-.hm_logo{
-	display: inline-block;
-	vertical-align: middle;
-	height: 60px;
-	width: 60px;
-	line-height: 80px;
-}
-.hm_title{
-	display: inline-block;
-	color: #FFF;
-	font-weight: bold;
-	letter-spacing: 2px;
-	line-height: 80px;
-	margin: 0;
-	vertical-align: middle;
-	text-indent: 5px;
-}
-.hm_menu{
-	margin-top: 10px;
-	margin-bottom: 0;
-	padding-left: 0;
-	list-style: none;
-	float: right;
-}
 
-/*主体内容*/
-.main{
-	min-height: 400px;
-	min-width: 1000px;
-	position: relative;
-}
 /*侧边栏*/
 .aside{
 	width: 200px;
@@ -166,8 +120,8 @@
 }
 .cb_list{
 	float: left;
-	height: 200px;
-	width: 200px;
+	height: 150px;
+	width: 150px;
 	margin-left: 10px;
 	margin-bottom: 10px;
 	text-align: center;
@@ -181,7 +135,7 @@
 }
 .cbl_table{
 	display: table;
-	height: 130px;
+	height: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 130px;
@@ -198,7 +152,7 @@
 .cblb_img{
 	display: inline-block;
 	max-width: 120px;
-	max-height: 120px;
+	max-height: 90px;
 	width: 9999%;
 }
 .cbl_title{
@@ -211,18 +165,4 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	text-align: center;
-}
-/*脚部*/
-.footer{
-	height: 30px;
-	width: 100%;
-	min-width: 1000px;
-	background-color: #E9E9ED;
-	border-top: 2px solid #CDCDD1;
-	text-align: center;
-	line-height: 30px;
-	color: #004F8D;
-	font-size: 14px;
-	position: relative;
-	z-index: 10;
 }

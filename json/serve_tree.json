@@ -1,0 +1,19 @@
+[{
+    "id":1,
+    "text":"物资采购凭证链",
+    "children":[
+    {
+        "text":"采购订单"
+    },{
+        "text":"入库单",
+        "state":"closed"
+    }]
+},{
+    "text":"生产计划凭证单",
+    "state":"closed",
+    "children":[{
+        "text":"生产订单"
+    },{
+        "text":"退库单"
+    }]
+}]
