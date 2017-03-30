@@ -1,6 +1,8 @@
 $(function(){
 	// 绑定点击事件
 	addNavClickEvent();
+	// 绑定点击事件
+	addIconBtnClickEvent();
 });
 
 
@@ -18,4 +20,12 @@ function addNavClickEvent(){
 		}
 		$(".cb_list."+type).show("normal");
 	});
+}
+
+// 绑定点击事件
+function addIconBtnClickEvent(){
+	$(".cb_list").on("click",function(){
+		// 调用本地exe文件
+		window.location.href = "tryDebug://";
+	})
 }
